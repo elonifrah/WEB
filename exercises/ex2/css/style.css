@@ -1,0 +1,430 @@
+* {
+    margin:0; padding:0;
+  }
+
+  header, main, nav, section, footer {
+
+    display: block;
+
+}
+
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+header {
+
+    width: 100%;
+    height: 657px;
+    background-color: #ED4C5C;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo{
+    position: absolute;
+    width: 188px;
+    height: 17.4px;
+    left: 51px;
+    top: 61px;
+    display: block;
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+    
+}
+
+#logo span{
+    
+    width: 152px;
+    height: 22px;
+    left: 87px;
+    top: 59px;
+    margin-left:30px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    
+}
+
+
+nav {
+    position: absolute;
+    width: 445px;
+    height: 22px;
+    left: 50px;
+    top: 129px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+
+
+nav a:hover {
+    color: rgb(95, 95, 95);
+    }
+
+    nav a {
+        line-height: 17px;
+        font-size: 14px;
+        color: white;
+        text-transform: uppercase;
+        font-style: normal;
+        padding-right: 10px;
+
+
+}
+
+header img{
+    position: absolute;
+    width: 445px;
+    height: 311px;
+    left: 90px;
+    top: 196px;
+    border-radius: 15px;
+}
+
+
+button{
+    position: absolute;
+width: 160px;
+height: 50px;
+left: 51px;
+top: 552px;
+color: #ED4C5C;
+background: #FFFFFF;
+border-radius: 6px;
+}
+
+#storge {
+    position: absolute;
+    width: 1440px;
+    height: 657px;
+    left: 0px;
+    top: 657px;
+    
+    background: #FFFFFF;
+}
+
+#h1 {
+    position: absolute;
+    width: 445px;
+    height: 89px;
+    left: 50px;
+    top: 56px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #000000;
+}
+
+#my-data{
+position: absolute;
+width: 445px;
+height: 83px;
+left: 50px;
+top: 180px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+text-align: justify;
+
+color: #000000;
+}
+
+
+#Lern-More{
+position: absolute;
+width: 71px;
+height: 26.28px;
+left: 50px;
+top: 283px;
+
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+text-align: justify;
+
+color: #ED4C5C;
+}
+
+#ribua {
+
+    position: absolute;
+
+    top: 345px;
+
+}
+
+
+.imgribua {
+
+    position: absolute;
+
+    width: 350px;
+
+    height: 248.86px;
+
+    border-radius: 8px;
+
+}
+
+#left {
+
+    left: 50px;
+
+    background: #C4C4C4;
+
+}
+
+
+.sub {
+
+    position: absolute;
+    width: 350px;
+    height: 40px;
+    top: 209px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    color: #ED4C5C;
+}
+
+
+.link {
+
+    color: #ED4C5C;
+
+}
+
+#sub1 {
+
+    left: 50px;
+
+}
+
+
+#middle {
+
+    left: 430px;
+
+    background: #C4C4C4;
+
+}
+
+
+#sub2 {
+
+    left: 430px;
+
+}
+
+
+#right {
+
+    left: 810px;
+
+    background: #C4C4C4;
+
+}
+
+
+#sub3 {
+
+    left: 810px;
+
+}
+
+
+#myskills {
+
+    position: absolute;
+    width: 100%;
+    height: 657px;
+    top: 1314px;
+    background: #F5F4F4;
+
+}
+
+#tecskills {
+
+    position: absolute;
+    width: 300px;
+    height: 47px;
+    left: 50px;
+    top: 57px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+
+}
+
+
+.ribuaicon {
+
+    position: absolute;
+
+    top: 160px;
+
+}
+
+.skills {
+
+    position: absolute;
+
+    width: 255px;
+
+    height: 226px;
+
+    background: #FFFFFF;
+
+}
+
+#one {
+
+    left: 50px;
+
+}
+
+
+.tecimg {
+
+    position: absolute;
+
+    top: 46px;
+
+    width: 70px;
+
+    height: 70px;
+
+    padding-left: 92.5px;
+
+}
+
+
+.techeader {
+
+    position: absolute;
+
+    width: 255px;
+
+    height: 22px;
+
+    top: 139px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-style: normal;
+
+    font-weight: bold;
+
+    font-size: 18px;
+
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #101010;
+
+}
+
+
+.datatec {
+
+    position: absolute;
+
+    width: 255px;
+
+    height: 51px;
+
+    top: 171px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    font-size: 12px;
+
+    line-height: 14px;
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+
+#two {
+
+    left: 335px;
+
+}
+
+
+#three {
+
+    left: 620px;
+
+}
+
+
+#four {
+
+    left: 905px;
+
+}
+
+footer{
+    height: 80px;
+    font-size: 24px;
+    padding-left: 50px;
+    padding-top: 33px;
+}
+
+footer a{
+    margin-right: 28px;
+}
