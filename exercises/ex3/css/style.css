@@ -1,0 +1,241 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header, main, footer, section, nav {display:block;}
+/* classes for both layouts */
+.clear {clear:both;}
+/* the wrapper for lay1,2 only*/
+
+header{
+	width:100%;
+	height: 192px;
+	background-color: #d6d6d6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#wrapper {
+		width:1000px;
+		margin:0px auto;
+		}
+.black_box {
+	background-color:#000000;
+	opacity:0.6;
+}
+.logo {
+	position: relative;
+	background: url(../images/logo.png) no-repeat center center;
+	height:75px;
+	width:76px;
+	display:block;
+}
+.nav_link_style {
+	text-decoration:none;
+	width:233px;
+	height:40px;
+	line-height:40px;
+	color:#ffffff;
+	display:block;
+}
+
+#layout1-selected:hover {
+	color: #ffffff;
+}
+nav a:hover {
+    color: rgb(95, 95, 95);
+    }
+
+    nav a {
+        color: white;
+        padding-right: 10px;
+}
+.nav_link_style2 {background-color:#2f96b4;}
+.nav_link_style1 {background-color:#333333;}
+
+/* classes for layout1 */
+
+/*.logo_style_lay1 {
+	position: relative;
+}*/
+#main_nav_lay1 ul{
+	width: 100%;
+	text-align:center;
+	list-style-type: none;
+	height:61px;
+	background-color: #333333;
+	display: flex;
+	align-items: center;
+    /*justify-content: center;*/
+}
+#main_nav_lay1 li {
+	float:left;
+	margin-left: 39px;
+}
+aside {
+	float:right;
+	background-color:#2f96b4;
+	height:696px;
+	width:245px;
+	}
+.cover_style_lay1 {
+	float:left;
+	width:235px;
+	height:235px;
+	display: flex;
+    flex-wrap: wrap;
+	/*justify-content: space-around;*/
+	justify-content: space-between;
+    /*align-content: space-between;*/
+}
+
+.cover_style_lay1 div {
+	margin-bottom: 35px;
+	position:relative;
+	float:left;
+	width:100px;
+	height:100px;
+	left:39px;
+	top:24px
+}
+
+.cover_style_lay3 {
+	float: right;
+	width:235px;
+	height:235px;
+	display: flex;
+    flex-wrap: wrap;
+	/*justify-content: space-around;*/
+	justify-content: space-between;
+}
+
+.cover_style_lay3 div {
+	margin-bottom: 35px;
+	float: right;
+	width:100px;
+	height:100px;
+	position:relative;
+	left: 25px;
+	top: 437px;
+}
+
+
+.box2_lay1 {
+	float:left;
+	position:relative;
+	height:59px;
+	width:148px;
+	top:200px;
+	left: 81px;
+}
+.footer_lay1{
+	height:50px;
+	width:100%;
+	background-color:#d6d6d6;
+	display:flex;
+}
+/* classes for layout 2*/
+.lay2_box_width {width:212px;}
+.logo_style_lay2 {height:193px;}
+.logo_style_lay2 a {
+	position:relative;
+}
+.nav_link_style3 {
+	text-decoration:none;
+	height:59px;
+	line-height:59px;
+	color:#ffffff;
+	display:block;
+}
+#main_nav_lay2 {
+	float:left;
+	position:relative;
+	height:758px;	
+	width: 146px;
+	background-color:#333333;
+}
+#main_nav_lay2 ul {list-style-type: none;}
+#main_nav_lay2 p { padding-left:6px;}
+.cover_style_lay2 {
+	position:relative;
+	overflow: hidden;
+	width:840px;
+	height:757px;
+}
+/*.cover_style_lay2 div {margin-left:30px;}*/
+.box1_lay2 {
+	float:left;
+	height:757px;
+	width:257px;
+	background-color:#d6d6d6;
+}
+.box2_lay2 {
+	float:left;
+	height:324px;
+	width: 270px;
+	margin-top: 22px;
+    margin-left: 22px;
+	background-color:#2f96b4;
+}
+.box3_lay2 {
+	float:left;
+	height:412px;
+	width: 270px;
+	margin-top: 22px;
+    margin-left: 22px;
+	background-color:#2f96b4;
+}
+
+.cover_style_lay2_box {
+	display: flex;
+	position:relative;
+	width:235px;
+	height:235px;
+    flex-wrap: wrap;
+	/*justify-content: space-around;*/
+	justify-content: space-between;
+	
+}
+
+.cover_style_lay2_box div {
+	margin-bottom: 35px;
+	float: right;
+	width:100px;
+	height:100px;
+	background-color: #2f96b4;
+}
+#on_lay2{
+	position: absolute;
+    bottom: 62px;
+    padding-left: 11px;
+}
+.box4_lay2 {
+	position:absolute;
+	right: 0px;
+	margin-top: 22px;
+	height:254px;
+	width: 270px;
+	margin-left: 16px;
+	background-color:#2f96b4;
+}
+
+.box5_lay2 {
+	position:absolute;
+	right: 0px;
+	margin-top: 300px;
+	height:364px;
+	width: 270px;
+	margin-left: 16px;
+	background-color:#2f96b4;
+}
+
+.footer_lay2 {
+	position:fixed;
+	height:50px;
+	width:1000px;
+   	bottom:0px;
+	background-color:#d6d6d6;
+}
+/* layout 3 */
