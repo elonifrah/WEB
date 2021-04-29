@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charest="utf-8">
+        <title>Fc Beitar Jerusalem</title>
+    </head>
+    <body>
+        <h1>Join Our Members Club</h1>
+        <form action="http://se.shenkar.ac.il/teach/web1/2021/get_form3.php" method="GET"  autocomplete>
+            <label>Full Name:
+            <input type="text" name="fullName" pattern="\w+\s\w+">
+            </label><br>
+
+            <label>Email:</label>
+            <input type="email" name="mail"><br>
+
+            <label>Password:</label>
+            <input type="Password" name="pass"><br>
+
+            <label>Website:</label>
+            <input type="url" name="website"><br>
+
+            <label>Phone Number:</label>
+            <input type="tel" name="phone" pattern="[0-9]{9/10}"><br>
+
+            <label>Coffee:</label>
+            <input type="number" name="coffee" min="0" max="5"><br>
+
+            <label>Temperature:</label>
+            <input type="range" name="temper"><br>
+
+            <label for="address">Address:</label>
+            <textarea name="address" rows="6" cols="30"></textarea>
+            <br>
+            <br>
+            <br>
+
+
+            <h4>Interests:</h4>
+            <label>Reading Books<input type="checkbox" name="interests[]" value="Reading Books"/></label><br>
+            <label>Programming<input type="checkbox" name="interests[]" value="coding"/></label><br>
+            <label>Travel<input type="checkbox" name="interests[]" value="Travel"/></label><br>
+            <label>Sleep<input type="checkbox" name="interests[]" value="bed"/></label><br><br>
+
+            <h4>Gender:</h4>
+            <label>Female<input type="radio" name="gender" value="female"></label><br>
+            <label>Male<input type="radio" name="gender" value="male"></label><br>
+            <label>Other<input type="radio" name="gender" value="other"></label><br><br>
+
+
+            <label for="age"> Age:
+                <select name="age">
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                </select>
+            </label>
+            <br>
+            <br>
+
+            <input type="submit">
+        </form>
+    </body>
+</html>
