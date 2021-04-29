@@ -18,8 +18,8 @@
     if ($userName=="Beitar" && $password=="LoveBeitar")
         echo "<h1> Welcome ".$userName."</h1>";
     else {
-        echo "<h1 style='color:red;'> NO You are Hapoel! You are not, ".$userName."</h1>";
-        echo "<h1> Try UserName:Beitar, Password:LoveBeitar</h1>";
+        echo "<h1 style='color:red;'> NO You are Hapoel! You are not Beitar! </h1>";
+        echo "<h1> If You Love Beitar Try Again With UserName: Beitar And Password: LoveBeitar</h1>";
     }
     ?>
 </body>
